@@ -1,0 +1,39 @@
+p {
+    color: #00c3ffb7;
+    font-family: 'Times New Roman', 'Times', 'serif';
+    font-size: 12pt;
+    font-weight: normal;
+    text-decoration: dotted;
+}
+
+button {
+    text-decoration: none;
+}
+
+#p1 {
+    color: blueviolet;
+}
+
+.p2 {
+    letter-spacing: 2pt;
+}
+
+/* a {
+    text-decoration: none;
+} */
+
+fieldset {
+    background-color: antiquewhite;
+}
+
+ul {
+    list-style: square;
+}
+
+ol {
+    list-style: georgian;
+}
+
+#img {
+    float: left;
+}
