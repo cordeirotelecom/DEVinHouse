@@ -1,0 +1,132 @@
+/* Formatação do estilo do corpo da página */
+
+body {
+    margin: 0;
+    min-width: 150px;
+    background: rgb(135, 172, 189);
+}
+
+
+/* Estilo do cabeçalho */
+
+.faixa {
+    background-color: #05062c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+}
+
+
+/* Margens da página */
+
+ul {
+    margin: 40px;
+    padding: 10px;
+}
+
+
+/* Estilo dos itens da lista */
+
+ul li {
+    background: cursive;
+    cursor: default;
+    width: 50%;
+    position: relative;
+    background: #eee;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    font-size: 18px;
+    transition: 0.2s;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+
+/* Ao passar o mouse na lista, muda cor da caixa */
+
+ul li:hover {
+    background: #ddd;
+}
+
+
+/* Mudar cor do fundo da lista ao clicar no texto*/
+
+ul li.checado {
+    background: rgb(89, 173, 199);
+    color: rgb(74, 64, 119);
+    text-decoration: line-through;
+}
+
+
+/* Estilo zebra da lista */
+
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+
+/* Adicionar "chechado" quando clicar no texto */
+
+ul li.checado::before {
+    content: '';
+    position: absolute;
+    border-color: red;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+
+/* Estilo do  botão de fechar */
+
+.fechar {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+
+/* Estilo da 'sombra'  botão de fechar */
+
+.fechar:hover {
+    background-color: #030318;
+    color: white;
+    width: 1%;
+}
+
+
+/* Estilo da inserção de texto na caixa de texto */
+
+input {
+    margin: auto;
+    border: none;
+    border-radius: 0;
+    width: 30%;
+    padding: 10px;
+    float: center;
+    font-size: 16px;
+}
+
+
+/* Estilo do botão de inseir itens */
+
+.botao {
+    padding: 10px;
+    width: 10%;
+    background: #769da0;
+    color: rgb(9, 15, 95);
+    float: unset;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
